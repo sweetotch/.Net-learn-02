@@ -14,51 +14,32 @@
             //Program.method1(i);
             //Program.method2(ref i);
 
-            Car bmw_e34 = new Car();
+            Car bmw_e34         = new Car();
+            Car mercedes_w124   = new Car();
+            Car subaru_Forester = new Car();
 
-            bmw_e34.setWheelDrive(2);
+            bmw_e34.setDriveWheels(Vehicle.DriveWheels.rearWheelDrive);
             bmw_e34.setTopSpeed(230);
             bmw_e34.setName("BMW");
             bmw_e34.setModel("e34");
-            bmw_e34.engineType = Vehicle.EngineType.Gasoline;
-
+            bmw_e34.setEngine(2.2f, 6, 180, Vehicle.EngineType.Inline, Vehicle.EngineFuelType.Gasoline);
             bmw_e34.displayCarInfo();
-
-
-            Car mercedes_w124 = new Car (2);
+            
+            mercedes_w124.setDriveWheels(Vehicle.DriveWheels.rearWheelDrive);
             mercedes_w124.setName("Mercedes-Benz");
             mercedes_w124.setTopSpeed(210);
-            mercedes_w124.engineType = Vehicle.EngineType.Diesel + 2;
+            mercedes_w124.setEngine(2.0f, 4, 150, Vehicle.EngineType.Inline, Vehicle.EngineFuelType.Diesel);
             mercedes_w124.displayCarInfo();
 
-            if (bmw_e34.engineType > mercedes_w124.engineType)
-            {
-                Console.WriteLine("\n\nbmw engine type is bigger");
-            }
-            else
-            {
-                Console.WriteLine("mercedes engine type is bigger");
-            }
-
-            //Program.method3(ref bmw_e34);
-            //bmw_e34.displayCarInfo();
+            subaru_Forester.setDriveWheels(Vehicle.DriveWheels.allWheelDrive);
+            subaru_Forester.setTopSpeed(190);
+            subaru_Forester.setName("Subaru");
+            subaru_Forester.setModel("Forester");
+            subaru_Forester.setEngine(1.8f, 4, 150, Vehicle.EngineType.Opposite, Vehicle.EngineFuelType.Gasoline);
+            subaru_Forester.displayCarInfo();
 
             Console.ReadKey();
         }
 
-        public static void method1(int _i)
-        {
-            _i += 10;
-        }
-
-        public static void method2(ref int _i)
-        {
-            _i += 10;
-        }
-
-        public static void method3(ref Car _car)
-        {
-            _car.setName("Redacted");
-        }
     }
 }

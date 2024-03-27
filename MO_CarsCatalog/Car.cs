@@ -8,24 +8,24 @@
 
     class Car : Vehicle
     {
-        private int     wheelDrive;
-        private string  model;
+        private DriveWheels driveWheels;
+        private string      model;
 
         public Car ()
         {
-            this.wheelDrive = 0;
+            this.driveWheels = 0;
             this.model      = "";
         }
 
-        public Car (int wheelDrive = 0, string model = "")
+        public Car (DriveWheels driveWheels = 0, string model = "")
         {
-            this.wheelDrive = wheelDrive;
+            this.driveWheels = driveWheels;
             this.model      = model;
         }
 
-        public void setWheelDrive (int wheelDrive = 0)
+        public void setDriveWheels(DriveWheels driveWheels = 0)
         {
-            this.wheelDrive = wheelDrive;
+            this.driveWheels = driveWheels;
         }
 
         public void setModel (string model = "")
@@ -33,9 +33,9 @@
             this.model = model;
         }
 
-        public int getWheelDrive()
+        public DriveWheels getDriveWheels()
         {
-            return this.wheelDrive;
+            return this.driveWheels;
         }
 
         public string getModel()
@@ -47,8 +47,8 @@
         {
             Console.WriteLine($"\n==== {this.getName()} ====");
             Console.WriteLine($"Model: {this.model}");
-            Console.WriteLine($"Engine type: {this.engineType}");
-            Console.WriteLine($"Drive wheels: {this.wheelDrive}");
+            engine.displayEngineProperties();
+            Console.WriteLine($"Drive wheels: {this.driveWheels}");
             Console.WriteLine($"Top speed: {this.getTopSpeed()}");
         }
 
