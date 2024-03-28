@@ -1,12 +1,5 @@
 ﻿namespace MO_CarsCatalog
 {
-    using MO_CarsCatalog.CustLibraries;
-    using System;
-    using System.Collections.Generic;
-    using System.Linq;
-    using System.Text;
-    using System.Threading.Tasks;
-
     class Program
     {
         static void Main(string[] args)
@@ -15,9 +8,9 @@
             //Program.method1(i);
             //Program.method2(ref i);
 
-            Car bmw_e34         = new Car();
-            Car mercedes_w124   = new Car();
-            Car subaru_Forester = new Car();
+            Car bmw_e34         = new ();
+            Car mercedes_w124   = new ();
+            Car subaru_Forester = new ();
 
             bmw_e34.setDriveWheels(DriveWheels.rearWheelDrive);
             bmw_e34.setTopSpeed(230);

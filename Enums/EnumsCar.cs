@@ -1,6 +1,5 @@
-﻿namespace MO_CarsCatalog.CustLibraries
+﻿namespace EnumsCar
 {
-
     public enum EngineFuelType
     {
         Gasoline = 1,

@@ -1,12 +1,5 @@
 ﻿namespace MO_CarsCatalog
 {
-    using MO_CarsCatalog.CustLibraries;
-    using System;
-    using System.Collections.Generic;
-    using System.Linq;
-    using System.Text;
-    using System.Threading.Tasks;
-
     class Car : Vehicle
     {
         private DriveWheels driveWheels;
