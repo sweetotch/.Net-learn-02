@@ -1,5 +1,6 @@
 ﻿namespace MO_CarsCatalog
 {
+    using MO_CarsCatalog.CustLibraries;
     using System;
     using System.Collections.Generic;
     using System.Linq;
@@ -56,27 +57,6 @@
             return this.topSpeed;
         }
 
-        public enum EngineFuelType
-        {
-            Gasoline = 1,
-            Diesel = 2,
-            Electricity = 3
-        }
-
-        public enum EngineType
-        {
-            Inline = 1,
-            V = 2,
-            Opposite = 3
-        }
-
-        public enum DriveWheels
-        {
-            frontWheelDrive = 1,
-            rearWheelDrive = 2,
-            allWheelDrive = 3
-        }
-
         public struct EngineProperties
         {
             public float           capacity;
@@ -107,7 +87,6 @@
                         break;
                     default: 
                         throw new Exception ("Engine type is not set correctly.");
-                            break;
                 }
 
                 Console.WriteLine($"\t{engineFuelType} {engineTypeStr}{cilinders} {capacity} liter {horsePowers}hp");
