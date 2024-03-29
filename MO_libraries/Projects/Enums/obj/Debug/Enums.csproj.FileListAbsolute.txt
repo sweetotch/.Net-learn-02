@@ -1,0 +1,5 @@
+C:\Users\Admina53c50efe9\Documents\MO new learn\DotNet-learn-02\MO_libraries\Projects\Enums\bin\Debug\Enums.dll
+C:\Users\Admina53c50efe9\Documents\MO new learn\DotNet-learn-02\MO_libraries\Projects\Enums\bin\Debug\Enums.pdb
+C:\Users\Admina53c50efe9\Documents\MO new learn\DotNet-learn-02\MO_libraries\Projects\Enums\obj\Debug\Enums.csproj.CoreCompileInputs.cache
+C:\Users\Admina53c50efe9\Documents\MO new learn\DotNet-learn-02\MO_libraries\Projects\Enums\obj\Debug\Enums.dll
+C:\Users\Admina53c50efe9\Documents\MO new learn\DotNet-learn-02\MO_libraries\Projects\Enums\obj\Debug\Enums.pdb

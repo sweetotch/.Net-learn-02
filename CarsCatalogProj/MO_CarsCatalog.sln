@@ -5,8 +5,6 @@ VisualStudioVersion = 16.0.32929.386
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MO_CarsCatalog", "MO_CarsCatalog\MO_CarsCatalog.csproj", "{5C42B852-0343-4C8F-A7E3-CFC869B2C622}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Enums", "Enums\Enums.csproj", "{F18991CE-E156-404F-945D-11D0AD5FC89C}"
-EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -17,10 +15,6 @@ Global
 		{5C42B852-0343-4C8F-A7E3-CFC869B2C622}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{5C42B852-0343-4C8F-A7E3-CFC869B2C622}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{5C42B852-0343-4C8F-A7E3-CFC869B2C622}.Release|Any CPU.Build.0 = Release|Any CPU
-		{F18991CE-E156-404F-945D-11D0AD5FC89C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{F18991CE-E156-404F-945D-11D0AD5FC89C}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{F18991CE-E156-404F-945D-11D0AD5FC89C}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{F18991CE-E156-404F-945D-11D0AD5FC89C}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
