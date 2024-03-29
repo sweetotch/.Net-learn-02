@@ -2,52 +2,43 @@
 {
     class Vehicle
     {
-        private int         topSpeed;
-        private string      name;
-
-        protected Vehicle.EngineProperties engine;
+        private int                 topSpeed;
+        private string              name;
+        protected EngineProperties  engine;
 
         public Vehicle()
         {
-            this.name = "";
-            this.topSpeed = 0;
-            this.engine = new Vehicle.EngineProperties();
+            name = "";
+            topSpeed = 0;
+            engine = new EngineProperties();
         }
 
-        public Vehicle (string _name = "", int _topSpeed = 0)
+        public Vehicle (string name = "", int topSpeed = 0, EngineProperties engine = new EngineProperties())
         {
-            this.name       = _name; 
-            this.topSpeed   = _topSpeed;
-            this.engine = new Vehicle.EngineProperties();
-        }
-
-        public void setName(string name = "")
-        {
-            this.name = name;
-        }
-
-        public void setTopSpeed(int topSpeed = 0)
-        {
-            this.topSpeed = topSpeed;
+            this.name       = name; 
+            this.topSpeed   = topSpeed;
+            this.engine     = engine;
         }
 
         public void setEngine(float capacity, int cilinders, int horsePowers, EngineType engineType, EngineFuelType engineFuelType)
         {
-            this.engine.capacity        = capacity;
-            this.engine.cilinders       = cilinders;
-            this.engine.horsePowers     = horsePowers;
-            this.engine.engineType      = engineType;
-            this.engine.engineFuelType  = engineFuelType;
+            engine.capacity        = capacity;
+            engine.cilinders       = cilinders;
+            engine.horsePowers     = horsePowers;
+            engine.engineType      = engineType;
+            engine.engineFuelType  = engineFuelType;
         }
 
-        public string getName()
+        public string Name
         {
-            return this.name;
+            set { name = value; }
+            get { return name; }
         }
 
-        public int getTopSpeed()
+        public int TopSpeed
         {
-            return this.topSpeed;
+            set { topSpeed = value; }
+            get { return topSpeed; }
         }
 
         public struct EngineProperties
@@ -58,12 +49,11 @@
             public EngineType      engineType;
             public EngineFuelType  engineFuelType;
 
-
             public void displayEngineProperties()
             {
                 string engineTypeStr;
 
-                Console.WriteLine("Engine properties:");
+                Console.Write("\nEngine: ");
                 
                 switch (engineType)
                 {
@@ -82,8 +72,7 @@
                         throw new Exception ("Engine type is not set correctly.");
                 }
 
-                Console.WriteLine($"\t{engineFuelType} {engineTypeStr}{cilinders} {capacity} liter {horsePowers}hp");
-
+                Console.Write($"{engineFuelType} {engineTypeStr}{cilinders} {capacity} liter {horsePowers}hp\n");
             }
 
         }

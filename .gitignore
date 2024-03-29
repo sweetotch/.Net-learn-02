@@ -1,0 +1,7 @@
+﻿################################################################################
+# This .gitignore file was automatically created by Microsoft(R) Visual Studio.
+################################################################################
+
+/MO_libraries/Projects/Enums/obj/Debug/.NETFramework,Version=v4.7.2.AssemblyAttributes.cs
+/MO_libraries/Projects/Enums/obj/Debug/DesignTimeResolveAssemblyReferencesInput.cache
+/MO_libraries/Projects/Enums/obj/Debug/Enums.csproj.AssemblyReference.cache

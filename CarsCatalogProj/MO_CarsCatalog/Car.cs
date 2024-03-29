@@ -7,43 +7,36 @@
 
         public Car ()
         {
-            this.driveWheels = 0;
-            this.model      = "";
+            driveWheels = 0;
+            model      = "";
         }
 
         public Car (DriveWheels driveWheels = 0, string model = "")
         {
-            this.driveWheels = driveWheels;
-            this.model      = model;
+            this.driveWheels    = driveWheels;
+            this.model          = model;
         }
 
-        public void setDriveWheels(DriveWheels driveWheels = 0)
+        public string FullName => $"{Name} {Model}";
+
+        public string Model
         {
-            this.driveWheels = driveWheels;
+            set { model = value; }
+            get {  return model; }
         }
 
-        public void setModel (string model = "")
+        public DriveWheels DriveWheels
         {
-            this.model = model;
-        }
-
-        public DriveWheels getDriveWheels()
-        {
-            return this.driveWheels;
-        }
-
-        public string getModel()
-        {
-            return this.model;
+            set { driveWheels = value; }
+            get { return driveWheels; }
         }
 
         public void displayCarInfo()
         {
-            Console.WriteLine($"\n==== {this.getName()} ====");
-            Console.WriteLine($"Model: {this.model}");
+            Console.WriteLine($"\n==== {FullName} ====");
             engine.displayEngineProperties();
-            Console.WriteLine($"Drive wheels: {this.driveWheels}");
-            Console.WriteLine($"Top speed: {this.getTopSpeed()}");
+            Console.WriteLine($"Drive wheels: {driveWheels}");
+            Console.WriteLine($"Top speed: {TopSpeed}");
         }
 
     }
