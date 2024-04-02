@@ -4,10 +4,8 @@
     {
         private const string switchDefault = "Selected option is not on the list !";
 
-        private LegalEntity  currentEntity;
-        Car             bmw_e34 = new();
-        Car             mercedes_w124 = new();
-        Car             subaru_Forester = new();
+        private LegalEntity     currentEntity;
+        internal List<Car> cars = new();
 
         static void Main(string[] args)
         {
@@ -20,28 +18,43 @@
             Console.ReadKey();
         }
 
+        /// <summary>
+        /// Initializes(Hardcodes) 3 cars in catalog
+        /// </summary>
         public void initCars()
         {
-            bmw_e34.ParmLegalEntity = LegalEntity.Cahul;
-            bmw_e34.DriveWheels = DriveWheels.rearWheelDrive;
-            bmw_e34.TopSpeed = 230;
-            bmw_e34.Name = "BMW    ";
-            bmw_e34.Model = "   e34";
-            bmw_e34.setEngine(2.2f, 6, 180, EngineType.Inline, EngineFuelType.Gasoline);
+            //TODO: Reimplement using Files functionality
+            Car car = new();
 
-            mercedes_w124.ParmLegalEntity = LegalEntity.Cantemir;
-            mercedes_w124.DriveWheels = DriveWheels.rearWheelDrive;
-            mercedes_w124.Name = " Mercedes-Benz";
-            mercedes_w124.Model = "w124 ";
-            mercedes_w124.TopSpeed = 210;
-            mercedes_w124.setEngine(2.0f, 4, 150, EngineType.Inline, EngineFuelType.Diesel);
+            car.ParmLegalEntity = LegalEntity.Cahul;
+            car.DriveWheels = DriveWheels.rearWheelDrive;
+            car.TopSpeed = 230;
+            car.Name = "BMW    ";
+            car.Model = "   e34";
+            car.setEngine(2.2f, 6, 180, EngineType.Inline, EngineFuelType.Gasoline);
 
-            subaru_Forester.ParmLegalEntity = LegalEntity.Cahul;
-            subaru_Forester.DriveWheels = DriveWheels.allWheelDrive;
-            subaru_Forester.TopSpeed = 190;
-            subaru_Forester.Name = "Subaru";
-            subaru_Forester.Model = "Forester";
-            subaru_Forester.setEngine(1.8f, 4, 150, EngineType.Opposite, EngineFuelType.Gasoline);
+            cars.Add(car);
+            car = new();
+
+            car.ParmLegalEntity = LegalEntity.Cantemir;
+            car.DriveWheels = DriveWheels.rearWheelDrive;
+            car.Name = " Mercedes-Benz";
+            car.Model = "w124 ";
+            car.TopSpeed = 210;
+            car.setEngine(2.0f, 4, 150, EngineType.Inline, EngineFuelType.Diesel);
+
+            cars.Add(car);
+            car = new();
+
+            car.ParmLegalEntity = LegalEntity.Cahul;
+            car.DriveWheels = DriveWheels.allWheelDrive;
+            car.TopSpeed = 190;
+            car.Name = "Subaru";
+            car.Model = "Forester";
+            car.setEngine(1.8f, 4, 150, EngineType.Opposite, EngineFuelType.Gasoline);
+
+            cars.Add(car);
+            car = new();
         }
 
         public void menu()
@@ -139,9 +152,10 @@
 
         public void displayCars(bool _displayAllCars = false)
         {
-            this.displayCar(bmw_e34, _displayAllCars);
-            this.displayCar(mercedes_w124, _displayAllCars);
-            this.displayCar(subaru_Forester, _displayAllCars);
+            foreach (Car car in cars)
+            {
+                this.displayCar(car, _displayAllCars);
+            }
 
         }
 
