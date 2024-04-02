@@ -17,7 +17,7 @@
             this.model          = model;
         }
 
-        public string FullName => $"{Name} {Model}";
+        public string FullName => $"{Name.Trim()} {Model.Trim()}";
 
         public string Model
         {

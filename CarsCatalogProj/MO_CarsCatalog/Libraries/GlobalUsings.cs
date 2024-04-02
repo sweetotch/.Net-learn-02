@@ -1,4 +1,5 @@
 ﻿global using EnumsCar;
+global using EnumsMiscel;
 global using StructuresCar;
 global using System;
 global using System.Collections.Generic;

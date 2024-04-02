@@ -4,6 +4,7 @@
     {
         private int                 topSpeed;
         private string              name;
+        private LegalEntity         legalEntity;
         protected EngineProperties  engine;
 
         public Vehicle()
@@ -41,6 +42,11 @@
             get { return topSpeed; }
         }
 
+        public LegalEntity ParmLegalEntity
+        {
+            set { legalEntity = value; }
+            get { return legalEntity; }
+        }
 
     }
 }
