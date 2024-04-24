@@ -1,0 +1,71 @@
+C:\Users\Admina53c50efe9\source\repos\MO_WebApp_01\MO_WebApp_01\bin\Debug\net8.0\appsettings.Development.json
+C:\Users\Admina53c50efe9\source\repos\MO_WebApp_01\MO_WebApp_01\bin\Debug\net8.0\appsettings.json
+C:\Users\Admina53c50efe9\source\repos\MO_WebApp_01\MO_WebApp_01\bin\Debug\net8.0\MO_WebApp_01.exe
+C:\Users\Admina53c50efe9\source\repos\MO_WebApp_01\MO_WebApp_01\bin\Debug\net8.0\MO_WebApp_01.deps.json
+C:\Users\Admina53c50efe9\source\repos\MO_WebApp_01\MO_WebApp_01\bin\Debug\net8.0\MO_WebApp_01.runtimeconfig.json
+C:\Users\Admina53c50efe9\source\repos\MO_WebApp_01\MO_WebApp_01\bin\Debug\net8.0\MO_WebApp_01.dll
+C:\Users\Admina53c50efe9\source\repos\MO_WebApp_01\MO_WebApp_01\bin\Debug\net8.0\MO_WebApp_01.pdb
+C:\Users\Admina53c50efe9\source\repos\MO_WebApp_01\MO_WebApp_01\obj\Debug\net8.0\MO_WebApp_01.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Admina53c50efe9\source\repos\MO_WebApp_01\MO_WebApp_01\obj\Debug\net8.0\MO_WebApp_01.AssemblyInfoInputs.cache
+C:\Users\Admina53c50efe9\source\repos\MO_WebApp_01\MO_WebApp_01\obj\Debug\net8.0\MO_WebApp_01.AssemblyInfo.cs
+C:\Users\Admina53c50efe9\source\repos\MO_WebApp_01\MO_WebApp_01\obj\Debug\net8.0\MO_WebApp_01.csproj.CoreCompileInputs.cache
+C:\Users\Admina53c50efe9\source\repos\MO_WebApp_01\MO_WebApp_01\obj\Debug\net8.0\MO_WebApp_01.MvcApplicationPartsAssemblyInfo.cache
+C:\Users\Admina53c50efe9\source\repos\MO_WebApp_01\MO_WebApp_01\obj\Debug\net8.0\staticwebassets.build.json
+C:\Users\Admina53c50efe9\source\repos\MO_WebApp_01\MO_WebApp_01\obj\Debug\net8.0\staticwebassets.development.json
+C:\Users\Admina53c50efe9\source\repos\MO_WebApp_01\MO_WebApp_01\obj\Debug\net8.0\staticwebassets\msbuild.MO_WebApp_01.Microsoft.AspNetCore.StaticWebAssets.props
+C:\Users\Admina53c50efe9\source\repos\MO_WebApp_01\MO_WebApp_01\obj\Debug\net8.0\staticwebassets\msbuild.build.MO_WebApp_01.props
+C:\Users\Admina53c50efe9\source\repos\MO_WebApp_01\MO_WebApp_01\obj\Debug\net8.0\staticwebassets\msbuild.buildMultiTargeting.MO_WebApp_01.props
+C:\Users\Admina53c50efe9\source\repos\MO_WebApp_01\MO_WebApp_01\obj\Debug\net8.0\staticwebassets\msbuild.buildTransitive.MO_WebApp_01.props
+C:\Users\Admina53c50efe9\source\repos\MO_WebApp_01\MO_WebApp_01\obj\Debug\net8.0\staticwebassets.pack.json
+C:\Users\Admina53c50efe9\source\repos\MO_WebApp_01\MO_WebApp_01\obj\Debug\net8.0\scopedcss\bundle\MO_WebApp_01.styles.css
+C:\Users\Admina53c50efe9\source\repos\MO_WebApp_01\MO_WebApp_01\obj\Debug\net8.0\MO_WebApp_01.dll
+C:\Users\Admina53c50efe9\source\repos\MO_WebApp_01\MO_WebApp_01\obj\Debug\net8.0\refint\MO_WebApp_01.dll
+C:\Users\Admina53c50efe9\source\repos\MO_WebApp_01\MO_WebApp_01\obj\Debug\net8.0\MO_WebApp_01.pdb
+C:\Users\Admina53c50efe9\source\repos\MO_WebApp_01\MO_WebApp_01\obj\Debug\net8.0\MO_WebApp_01.genruntimeconfig.cache
+C:\Users\Admina53c50efe9\source\repos\MO_WebApp_01\MO_WebApp_01\obj\Debug\net8.0\ref\MO_WebApp_01.dll
+C:\Users\Admina53c50efe9\source\repos\MO_WebApp_01\MO_WebApp_01\bin\Debug\net8.0\System.Web.Mvc.dll
+C:\Users\Admina53c50efe9\source\repos\MO_WebApp_01\MO_WebApp_01\bin\Debug\net8.0\System.Web.Razor.dll
+C:\Users\Admina53c50efe9\source\repos\MO_WebApp_01\MO_WebApp_01\bin\Debug\net8.0\System.Web.Helpers.dll
+C:\Users\Admina53c50efe9\source\repos\MO_WebApp_01\MO_WebApp_01\bin\Debug\net8.0\System.Web.WebPages.Deployment.dll
+C:\Users\Admina53c50efe9\source\repos\MO_WebApp_01\MO_WebApp_01\bin\Debug\net8.0\System.Web.WebPages.Razor.dll
+C:\Users\Admina53c50efe9\source\repos\MO_WebApp_01\MO_WebApp_01\bin\Debug\net8.0\System.Web.WebPages.dll
+C:\Users\Admina53c50efe9\source\repos\MO_WebApp_01\MO_WebApp_01\bin\Debug\net8.0\Microsoft.Web.Infrastructure.dll
+C:\Users\Admina53c50efe9\source\repos\MO_WebApp_01\MO_WebApp_01\obj\Debug\net8.0\MO_WebApp_01.csproj.AssemblyReference.cache
+C:\Users\Admina53c50efe9\source\repos\MO_WebApp_01\MO_WebApp_01\obj\Debug\net8.0\MO_WebAp.6AA5A439.Up2Date
+C:\Users\Admina53c50efe9\Documents\MO new learn\.Net-learn-02\MO_WebApp_01\MO_WebApp_01\bin\Debug\net8.0\appsettings.Development.json
+C:\Users\Admina53c50efe9\Documents\MO new learn\.Net-learn-02\MO_WebApp_01\MO_WebApp_01\bin\Debug\net8.0\appsettings.json
+C:\Users\Admina53c50efe9\Documents\MO new learn\.Net-learn-02\MO_WebApp_01\MO_WebApp_01\bin\Debug\net8.0\MO_WebApp_01.exe
+C:\Users\Admina53c50efe9\Documents\MO new learn\.Net-learn-02\MO_WebApp_01\MO_WebApp_01\bin\Debug\net8.0\MO_WebApp_01.deps.json
+C:\Users\Admina53c50efe9\Documents\MO new learn\.Net-learn-02\MO_WebApp_01\MO_WebApp_01\bin\Debug\net8.0\MO_WebApp_01.runtimeconfig.json
+C:\Users\Admina53c50efe9\Documents\MO new learn\.Net-learn-02\MO_WebApp_01\MO_WebApp_01\bin\Debug\net8.0\MO_WebApp_01.dll
+C:\Users\Admina53c50efe9\Documents\MO new learn\.Net-learn-02\MO_WebApp_01\MO_WebApp_01\bin\Debug\net8.0\MO_WebApp_01.pdb
+C:\Users\Admina53c50efe9\Documents\MO new learn\.Net-learn-02\MO_WebApp_01\MO_WebApp_01\bin\Debug\net8.0\System.Web.Mvc.dll
+C:\Users\Admina53c50efe9\Documents\MO new learn\.Net-learn-02\MO_WebApp_01\MO_WebApp_01\bin\Debug\net8.0\System.Web.Razor.dll
+C:\Users\Admina53c50efe9\Documents\MO new learn\.Net-learn-02\MO_WebApp_01\MO_WebApp_01\bin\Debug\net8.0\System.Web.Helpers.dll
+C:\Users\Admina53c50efe9\Documents\MO new learn\.Net-learn-02\MO_WebApp_01\MO_WebApp_01\bin\Debug\net8.0\System.Web.WebPages.Deployment.dll
+C:\Users\Admina53c50efe9\Documents\MO new learn\.Net-learn-02\MO_WebApp_01\MO_WebApp_01\bin\Debug\net8.0\System.Web.WebPages.Razor.dll
+C:\Users\Admina53c50efe9\Documents\MO new learn\.Net-learn-02\MO_WebApp_01\MO_WebApp_01\bin\Debug\net8.0\System.Web.WebPages.dll
+C:\Users\Admina53c50efe9\Documents\MO new learn\.Net-learn-02\MO_WebApp_01\MO_WebApp_01\bin\Debug\net8.0\Microsoft.Web.Infrastructure.dll
+C:\Users\Admina53c50efe9\Documents\MO new learn\.Net-learn-02\MO_WebApp_01\MO_WebApp_01\obj\Debug\net8.0\MO_WebApp_01.csproj.AssemblyReference.cache
+C:\Users\Admina53c50efe9\Documents\MO new learn\.Net-learn-02\MO_WebApp_01\MO_WebApp_01\obj\Debug\net8.0\MO_WebApp_01.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Admina53c50efe9\Documents\MO new learn\.Net-learn-02\MO_WebApp_01\MO_WebApp_01\obj\Debug\net8.0\MO_WebApp_01.AssemblyInfoInputs.cache
+C:\Users\Admina53c50efe9\Documents\MO new learn\.Net-learn-02\MO_WebApp_01\MO_WebApp_01\obj\Debug\net8.0\MO_WebApp_01.AssemblyInfo.cs
+C:\Users\Admina53c50efe9\Documents\MO new learn\.Net-learn-02\MO_WebApp_01\MO_WebApp_01\obj\Debug\net8.0\MO_WebApp_01.csproj.CoreCompileInputs.cache
+C:\Users\Admina53c50efe9\Documents\MO new learn\.Net-learn-02\MO_WebApp_01\MO_WebApp_01\obj\Debug\net8.0\MO_WebApp_01.MvcApplicationPartsAssemblyInfo.cache
+C:\Users\Admina53c50efe9\Documents\MO new learn\.Net-learn-02\MO_WebApp_01\MO_WebApp_01\obj\Debug\net8.0\MO_WebApp_01.RazorAssemblyInfo.cache
+C:\Users\Admina53c50efe9\Documents\MO new learn\.Net-learn-02\MO_WebApp_01\MO_WebApp_01\obj\Debug\net8.0\MO_WebApp_01.RazorAssemblyInfo.cs
+C:\Users\Admina53c50efe9\Documents\MO new learn\.Net-learn-02\MO_WebApp_01\MO_WebApp_01\obj\Debug\net8.0\MO_WebApp_01.sourcelink.json
+C:\Users\Admina53c50efe9\Documents\MO new learn\.Net-learn-02\MO_WebApp_01\MO_WebApp_01\obj\Debug\net8.0\staticwebassets.build.json
+C:\Users\Admina53c50efe9\Documents\MO new learn\.Net-learn-02\MO_WebApp_01\MO_WebApp_01\obj\Debug\net8.0\staticwebassets.development.json
+C:\Users\Admina53c50efe9\Documents\MO new learn\.Net-learn-02\MO_WebApp_01\MO_WebApp_01\obj\Debug\net8.0\staticwebassets\msbuild.MO_WebApp_01.Microsoft.AspNetCore.StaticWebAssets.props
+C:\Users\Admina53c50efe9\Documents\MO new learn\.Net-learn-02\MO_WebApp_01\MO_WebApp_01\obj\Debug\net8.0\staticwebassets\msbuild.build.MO_WebApp_01.props
+C:\Users\Admina53c50efe9\Documents\MO new learn\.Net-learn-02\MO_WebApp_01\MO_WebApp_01\obj\Debug\net8.0\staticwebassets\msbuild.buildMultiTargeting.MO_WebApp_01.props
+C:\Users\Admina53c50efe9\Documents\MO new learn\.Net-learn-02\MO_WebApp_01\MO_WebApp_01\obj\Debug\net8.0\staticwebassets\msbuild.buildTransitive.MO_WebApp_01.props
+C:\Users\Admina53c50efe9\Documents\MO new learn\.Net-learn-02\MO_WebApp_01\MO_WebApp_01\obj\Debug\net8.0\staticwebassets.pack.json
+C:\Users\Admina53c50efe9\Documents\MO new learn\.Net-learn-02\MO_WebApp_01\MO_WebApp_01\obj\Debug\net8.0\scopedcss\bundle\MO_WebApp_01.styles.css
+C:\Users\Admina53c50efe9\Documents\MO new learn\.Net-learn-02\MO_WebApp_01\MO_WebApp_01\obj\Debug\net8.0\MO_WebAp.6AA5A439.Up2Date
+C:\Users\Admina53c50efe9\Documents\MO new learn\.Net-learn-02\MO_WebApp_01\MO_WebApp_01\obj\Debug\net8.0\MO_WebApp_01.dll
+C:\Users\Admina53c50efe9\Documents\MO new learn\.Net-learn-02\MO_WebApp_01\MO_WebApp_01\obj\Debug\net8.0\refint\MO_WebApp_01.dll
+C:\Users\Admina53c50efe9\Documents\MO new learn\.Net-learn-02\MO_WebApp_01\MO_WebApp_01\obj\Debug\net8.0\MO_WebApp_01.pdb
+C:\Users\Admina53c50efe9\Documents\MO new learn\.Net-learn-02\MO_WebApp_01\MO_WebApp_01\obj\Debug\net8.0\MO_WebApp_01.genruntimeconfig.cache
+C:\Users\Admina53c50efe9\Documents\MO new learn\.Net-learn-02\MO_WebApp_01\MO_WebApp_01\obj\Debug\net8.0\ref\MO_WebApp_01.dll
