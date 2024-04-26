@@ -2,14 +2,9 @@
 <h3>@Model.currCategory</h3>
 <div class="row mt-5 mb-2">  @* бутстрап отступы (merging top и merging bottom)*@
 @{
-        foreach (var car in Model.allCars) {
-    <div class="col-lg-3">              @*Бутстрап блоки по 3 единицы величиной*@
-        <img class="img-thumbnail" src="@car.img" alt="@car.name" />
-        <h2>@car.name</h2>
-        <p>@car.shortDesc</p>
-        <p>Цeна: @car.price.ToString("c")</p>
-        <p><a class="btn btn-warning" href="#">Подробнеe</a></p>
-    </div>
-}
+        foreach (Car car in Model.allCars) 
+        {
+            @Html.Partial("AllCars", car)
+        }
 }
 </div>

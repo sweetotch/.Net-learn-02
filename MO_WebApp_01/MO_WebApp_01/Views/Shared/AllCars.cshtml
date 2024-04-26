@@ -1,0 +1,10 @@
+﻿@model MO_WebApp_01.Data.Models.Car
+
+<div class="col-lg-3">
+    @*Бутстрап блоки по 3 единицы величиной*@
+    <img class="img-thumbnail" src="@Model.img" alt="@Model.name" />
+    <h2>@Model.name</h2>
+    <p>@Model.shortDesc</p>
+    <p>Цeна: @Model.price.ToString("c")</p>
+    <p><a class="btn btn-warning" href="#">Подробнеe</a></p>
+</div>

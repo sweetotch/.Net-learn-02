@@ -13,7 +13,7 @@ using Microsoft.Extensions.DependencyInjection;
 using MO_WebApp_01;
 using MO_WebApp_01.Data;
 using MO_WebApp_01.Data.Interfaces;
-using MO_WebApp_01.Data.mocks;
+using MO_WebApp_01.Data.Models;
 using MO_WebApp_01.Data.Repository;
 
 var builder = WebApplication.CreateBuilder(args);
@@ -26,9 +26,16 @@ builder.Services.AddDbContext<AppDBContent>(options =>
 });
 
 builder.Services.AddTransient<ICars, CarsRepository>();
-
 builder.Services.AddTransient<ICarsCategory, CategoriesRepository>();
+
+builder.Services.AddSingleton<IHttpContextAccessor, HttpContextAccessor>();
+
+//два разных человека должны видеть разные корзины
+builder.Services.AddScoped(sp => ShopCart.GetCart(sp));
+
 builder.Services.AddMvc();
+builder.Services.AddMemoryCache();
+builder.Services.AddSession();
 
 
 var app = builder.Build();
@@ -38,6 +45,7 @@ app.UseDeveloperExceptionPage();
 app.UseStatusCodePages();
 app.UseStaticFiles();
 app.UseRouting();
+app.UseSession(); //укзывем что используем сессии 
 app.UseEndpoints(endpoints =>
 {
     endpoints.MapControllerRoute("default", "{controller=Home}/{action=Index}");
