@@ -1,7 +1,10 @@
-﻿namespace MO_WebApp_01.Data.Models
+﻿using System.ComponentModel.DataAnnotations;
+
+namespace MO_WebApp_01.Data.Models
 {
     public class Car
     {
+        [Key]
         public int id { get; set; }
         public string name { get; set; }
         public string shortDesc { get; set; }

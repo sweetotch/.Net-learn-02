@@ -3,7 +3,7 @@
 <div class="row mt-5 mb-2">  @* бутстрап отступы (merging top и merging bottom)*@
 @{
         foreach (var car in Model.allCars) {
-    <div class="col-lg-3">              @*Бутстрап блоки по 4 единицы величиной*@
+    <div class="col-lg-3">              @*Бутстрап блоки по 3 единицы величиной*@
         <img class="img-thumbnail" src="@car.img" alt="@car.name" />
         <h2>@car.name</h2>
         <p>@car.shortDesc</p>

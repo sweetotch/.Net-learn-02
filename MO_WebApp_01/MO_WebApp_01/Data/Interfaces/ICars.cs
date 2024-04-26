@@ -5,7 +5,7 @@ namespace MO_WebApp_01.Data.Interfaces
     public interface ICars
     {
         IEnumerable<Car> Cars { get;}
-        IEnumerable<Car> getFavCars { get; set; }
+        IEnumerable<Car> getFavCars { get; }
         Car getObjectCar(int _carId);
     }
 }
