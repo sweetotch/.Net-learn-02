@@ -51,15 +51,44 @@ namespace MO_WebApp_01.Migrations
                         onDelete: ReferentialAction.Cascade);
                 });
 
+            migrationBuilder.CreateTable(
+                name: "ShopCartItem",
+                columns: table => new
+                {
+                    itemId = table.Column<int>(type: "integer", nullable: false)
+                        .Annotation("Npgsql:ValueGenerationStrategy", NpgsqlValueGenerationStrategy.IdentityByDefaultColumn),
+                    carid = table.Column<int>(type: "integer", nullable: false),
+                    price = table.Column<int>(type: "integer", nullable: false),
+                    shopCartId = table.Column<string>(type: "text", nullable: false)
+                },
+                constraints: table =>
+                {
+                    table.PrimaryKey("PK_ShopCartItem", x => x.itemId);
+                    table.ForeignKey(
+                        name: "FK_ShopCartItem_Car_carid",
+                        column: x => x.carid,
+                        principalTable: "Car",
+                        principalColumn: "id",
+                        onDelete: ReferentialAction.Cascade);
+                });
+
             migrationBuilder.CreateIndex(
                 name: "IX_Car_categoryId",
                 table: "Car",
                 column: "categoryId");
+
+            migrationBuilder.CreateIndex(
+                name: "IX_ShopCartItem_carid",
+                table: "ShopCartItem",
+                column: "carid");
         }
 
         /// <inheritdoc />
         protected override void Down(MigrationBuilder migrationBuilder)
         {
+            migrationBuilder.DropTable(
+                name: "ShopCartItem");
+
             migrationBuilder.DropTable(
                 name: "Car");
 

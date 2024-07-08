@@ -11,7 +11,7 @@ using Npgsql.EntityFrameworkCore.PostgreSQL.Metadata;
 namespace MO_WebApp_01.Migrations
 {
     [DbContext(typeof(AppDBContent))]
-    [Migration("20240426110244_Initial")]
+    [Migration("20240617143200_Initial")]
     partial class Initial
     {
         /// <inheritdoc />
@@ -88,6 +88,31 @@ namespace MO_WebApp_01.Migrations
                     b.ToTable("Category");
                 });
 
+            modelBuilder.Entity("MO_WebApp_01.Data.Models.ShopCartItem", b =>
+                {
+                    b.Property<int>("itemId")
+                        .ValueGeneratedOnAdd()
+                        .HasColumnType("integer");
+
+                    NpgsqlPropertyBuilderExtensions.UseIdentityByDefaultColumn(b.Property<int>("itemId"));
+
+                    b.Property<int>("carid")
+                        .HasColumnType("integer");
+
+                    b.Property<int>("price")
+                        .HasColumnType("integer");
+
+                    b.Property<string>("shopCartId")
+                        .IsRequired()
+                        .HasColumnType("text");
+
+                    b.HasKey("itemId");
+
+                    b.HasIndex("carid");
+
+                    b.ToTable("ShopCartItem");
+                });
+
             modelBuilder.Entity("MO_WebApp_01.Data.Models.Car", b =>
                 {
                     b.HasOne("MO_WebApp_01.Data.Models.Category", "Category")
@@ -97,6 +122,17 @@ namespace MO_WebApp_01.Migrations
                         .IsRequired();
 
                     b.Navigation("Category");
+                });
+
+            modelBuilder.Entity("MO_WebApp_01.Data.Models.ShopCartItem", b =>
+                {
+                    b.HasOne("MO_WebApp_01.Data.Models.Car", "car")
+                        .WithMany()
+                        .HasForeignKey("carid")
+                        .OnDelete(DeleteBehavior.Cascade)
+                        .IsRequired();
+
+                    b.Navigation("car");
                 });
 
             modelBuilder.Entity("MO_WebApp_01.Data.Models.Category", b =>
